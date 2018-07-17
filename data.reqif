@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<REQ-IF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.omg.org/spec/ReqIF/20110401/reqif.xsd">
+<REQ-IF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.omg.org/spec/ReqIF/20110401/reqif.xsd" xmlns:configuration="http://eclipse.org/rmf/pror/toolextensions/1.0">
   <THE-HEADER>
-    <REQ-IF-HEADER IDENTIFIER="_vFgfgYnDEeikWNxqKRfMUg">
+    <REQ-IF-HEADER IDENTIFIER="rmf-8ae77a9d-413e-4a38-bdf4-2d5cc5c23c82">
       <COMMENT>Transformed by ReqExchange from SysML</COMMENT>
       <CREATION-TIME xsi:nil="true"/>
       <REQ-IF-TOOL-ID>ReqExchange (wir.haben.keine.webseite.tu-berlin.de)</REQ-IF-TOOL-ID>
@@ -354,9 +354,9 @@
             <SPEC-OBJECT-TYPE-REF>_vFgfhInDEeikWNxqKRfMUg</SPEC-OBJECT-TYPE-REF>
           </TYPE>
         </SPEC-OBJECT>
-        <SPEC-OBJECT IDENTIFIER="_vFhGvonDEeikWNxqKRfMUg">
+        <SPEC-OBJECT IDENTIFIER="_vFhGvonDEeikWNxqKRfMUg" LAST-CHANGE="2018-07-17T15:22:19.508+02:00">
           <VALUES>
-            <ATTRIBUTE-VALUE-STRING THE-VALUE="Der ReqExchange Client markiert ein Projekt, wenn auf dem Client Änderungen an einem Projekt zum versenden verfügbar sind.">
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Der ReqExchange Client markiert ein Projekt, wenn auf dem Client Änderungen an einem Projekt zum versenden verfügbar sind. This is some sample text to show you the functionality of the project. ">
               <DEFINITION>
                 <ATTRIBUTE-DEFINITION-STRING-REF>_vFgfhYnDEeikWNxqKRfMUg</ATTRIBUTE-DEFINITION-STRING-REF>
               </DEFINITION>
@@ -665,4 +665,37 @@
       </SPECIFICATIONS>
     </REQ-IF-CONTENT>
   </CORE-CONTENT>
+  <TOOL-EXTENSIONS>
+    <REQ-IF-TOOL-EXTENSION>
+      <configuration:ProrToolExtension>
+        <configuration:specViewConfigurations>
+          <configuration:ProrSpecViewConfiguration specification="_vFhto4nDEeikWNxqKRfMUg">
+            <configuration:columns>
+              <configuration:Column label="Description" width="640"/>
+              <configuration:Column label="Title" width="100"/>
+              <configuration:Column label="ID" width="100"/>
+            </configuration:columns>
+            <configuration:leftHeaderColumn>
+              <configuration:Column label="Lead Header Column" width="30"/>
+            </configuration:leftHeaderColumn>
+          </configuration:ProrSpecViewConfiguration>
+        </configuration:specViewConfigurations>
+        <configuration:generalConfiguration>
+          <configuration:ProrGeneralConfiguration>
+            <configuration:labelConfiguration>
+              <configuration:LabelConfiguration>
+                <defaultLabel>ReqIF.ChapterNumber</defaultLabel>
+                <defaultLabel>ReqIF.ChapterName</defaultLabel>
+                <defaultLabel>ReqIF.Name</defaultLabel>
+                <defaultLabel>ReqIF.Text</defaultLabel>
+                <defaultLabel>ID</defaultLabel>
+                <defaultLabel>Name</defaultLabel>
+                <defaultLabel>Description</defaultLabel>
+              </configuration:LabelConfiguration>
+            </configuration:labelConfiguration>
+          </configuration:ProrGeneralConfiguration>
+        </configuration:generalConfiguration>
+      </configuration:ProrToolExtension>
+    </REQ-IF-TOOL-EXTENSION>
+  </TOOL-EXTENSIONS>
 </REQ-IF>
